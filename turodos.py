@@ -65,7 +65,7 @@ for i in range(24):
     sys.stdout.flush()
     time.sleep(0.1)
 
-print("\n\n\033[92m[+] TURBO Engine: ACTIVE\033[0m")
+print("\n\n\033[92m[+] TURO Engine: ACTIVE\033[0m")
 time.sleep(1)
 print("\033[92m[+] Packet Generator: ONLINE\033[0m")
 time.sleep(1)
@@ -73,7 +73,7 @@ print("\033[92m[+] Network Interface: READY\033[0m")
 time.sleep(1)
 
 print("\n\033[91m" + "▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄")
-print("█ TURBO DOS ATTACK IN PROGRESS - PRESS CTRL+C TO STOP █")
+print("█ TURO DOS ATTACK IN PROGRESS - PRESS CTRL+C TO STOP █")
 print("▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀" + "\033[0m")
 print()
 
