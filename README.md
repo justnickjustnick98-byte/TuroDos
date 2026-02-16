@@ -8,4 +8,9 @@ ________________________________________________________________________________
 2. Click on Save As in Notepad and you wanna open it on your desktop but this is optional and then you give it a name The name is optional too but you have to put it as .py
 
 3. It should come up on your desktop Click on it and then you're done No administrative permission.
-
+_____________________________________________________________________________________________________
+how to open on termux mobile [android only]
+___________________________________________
+To get TuroDos running on your phone, first copy and paste the main TuroDos.py script, then open Termux and create a new file by typing nano filename.py, paste in the code, save it by pressing Ctrl+X, then Y, then Enter, and finally run it with 
+[python filename.py] and thats it.
+____________________________________________________________________________________________________________________________________________________________________
