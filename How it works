@@ -1,2 +1,17 @@
-To get TuroDos running on your phone, first copy and paste the main TuroDos.py script, then open Termux and create a new file by typing nano filename.py, paste in the code, save it by pressing Ctrl+X, then Y, then Enter, and finally run it with 
-[python filename.py] and thats it.
+What Is a DoS Attack?
+_____________________________
+A Denial-of-Service (DoS) attack is an attempt to make a system, server, or network unavailable to legitimate users by overwhelming it with excessive traffic or resource requests.
+
+Instead of exploiting a vulnerability to gain access, a DoS attack focuses on disrupting availability.
+______________________________________________________________________________________________________
+DoS vs DDoS
+
+DoS: Attack originates from a single source.
+
+DDoS (Distributed DoS): Attack originates from multiple devices (often a botnet).
+
+DDoS attacks are significantly more powerful and harder to mitigate.
+_______________________________________________________________________
+This program is a DOS attack Program which means it focuses on one single source rather than a multiple devices 
+but still run with caution'cause you could get in trouble with this script if you're not careful.
+_______________________________________________________________________________________________________________
